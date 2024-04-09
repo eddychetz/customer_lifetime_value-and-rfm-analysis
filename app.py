@@ -26,7 +26,7 @@ app = dash.Dash(
     __name__, 
     external_stylesheets=external_stylesheets
 )
-
+server = app.server
 PLOT_BACKGROUND = 'rgba(0,0,0,0)'
 PLOT_FONT_COLOR = 'white'
 LOGO = "./data/base_logo.png"
