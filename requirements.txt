@@ -10,7 +10,7 @@ plydata==0.4.3
 matplotlib==3.3.4
 plotnine==0.7.1
 mizani==0.7.2
-plotly==4.14.3
+plotly==5.0.0
 
 # Modeling & Machine Learning
 # statsmodels
