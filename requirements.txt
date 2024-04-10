@@ -1,6 +1,5 @@
 
 # dependencies:
-python=3.11.9
 
 # Core Data
 numpy==1.20.2
