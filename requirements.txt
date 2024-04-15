@@ -27,4 +27,4 @@ gunicorn
 # Apps
 # streamlit==0.80.0
 dash==2.6.0
-dash_bootstrap_components
+dash-bootstrap-components
