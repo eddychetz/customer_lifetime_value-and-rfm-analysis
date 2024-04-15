@@ -20,11 +20,12 @@ import pathlib
 
 # ### 2. APP SETUP
 
-#external_stylesheets = [dbc.themes.SOLAR]
+external_stylesheets = [dbc.themes.SOLAR]
 
-app = Dash(__name__)
-  #  external_stylesheets=external_stylesheets
-#)
+app = Dash(
+  __name__, 
+  external_stylesheets=external_stylesheets
+)
 server = app.server
 
 PLOT_BACKGROUND = 'rgba(0,0,0,0)'
