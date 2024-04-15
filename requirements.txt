@@ -3,14 +3,14 @@
 
 # Core Data
 # numpy==1.20.2
-# pandas==1.2.2
-plydata==0.4.3
+pandas
+# plydata==0.4.3
 
 # Visualization
-matplotlib==3.3.4
-plotnine==0.7.1
-mizani==0.7.2
-plotly==5.0.0
+# matplotlib==3.3.4
+# plotnine==0.7.1
+# mizani==0.7.2
+# plotly==5.0.0
 
 # Modeling & Machine Learning
 # statsmodels
@@ -25,6 +25,6 @@ plotly==5.0.0
 gunicorn
 
 # Apps
-streamlit==0.80.0
-dash==2.6.0
-dash_bootstrap_components
+# streamlit==0.80.0
+# dash==2.6.0
+# dash_bootstrap_components
