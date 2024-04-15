@@ -28,7 +28,7 @@ app = Dash(__name__)
 server = app.server
 PLOT_BACKGROUND = 'rgba(0,0,0,0)'
 PLOT_FONT_COLOR = 'white'
-LOGO = "./data/base_logo.png"
+#LOGO = "./data/base_logo.png"
 
 # ### 3. PATH
 
@@ -54,13 +54,13 @@ navbar = dbc.Navbar(
             # Use row and col to control vertical alignment of logo / brand
             dbc.Row(
                 [
-                    dbc.Col(html.Img(src=LOGO, height="30px")),
+                    # dbc.Col(html.Img(src=LOGO, height="30px")),
                     dbc.Col(dbc.NavbarBrand("Customer Spend Prediction", className="ml-2")),
                 ],
                 align="center",
 #                 no_gutters=True,
             ),
-            href="https://www.business-science.io/",
+         #   href="https://www.business-science.io/",
         ),
         dbc.NavbarToggler(id="navbar-toggler", n_clicks=0),
         dbc.Collapse(
